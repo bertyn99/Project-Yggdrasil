@@ -1,0 +1,23 @@
+{
+  "name": "site_jeu",
+  "version": "0.1.0",
+  "description": "app de mini jeu pour enfant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development nodemon index.js",
+    "start-prod": "cross-env NODE_ENV=prodution nodemon index.js"
+  },
+  "keywords": [],
+  "author": "bertyn",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
